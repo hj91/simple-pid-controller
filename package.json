@@ -1,0 +1,24 @@
+{
+  "name": "simple-pid-controller",
+  "version": "1.0.0",
+  "description": "A simple application to demonstrate the usage of a PID Controller with examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hj91/simple-pid-controller.git"
+  },
+  "keywords": [
+    "PID",
+    "Controller",
+    "Automation"
+  ],
+  "author": "Harshad Joshi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hj91/simple-pid-controller/issues"
+  },
+  "homepage": "https://github.com/hj91/simple-pid-controller#readme"
+}
