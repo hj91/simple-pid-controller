@@ -1,4 +1,4 @@
-# PID-Controller
+# PID Controller
 
 A Proportional-Integral-Derivative (PID) controller is a control loop feedback mechanism widely used in industrial control systems. This module provides a PID controller implementation in Node.js.
 
@@ -15,7 +15,7 @@ npm install pid-controller
 First, require the module:
 
 ```javascript
-const PIDController = require('pid-controller');
+const PIDController = require('simple-pid-controller');
 ```
 
 Then, create a new PIDController instance. You can optionally provide proportional, integral, and derivative gains and a time interval:
