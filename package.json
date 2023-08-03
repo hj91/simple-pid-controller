@@ -1,6 +1,6 @@
 {
   "name": "simple-pid-controller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple application to demonstrate the usage of a PID Controller with examples",
   "main": "index.js",
   "scripts": {
