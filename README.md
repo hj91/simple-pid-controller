@@ -18,10 +18,10 @@ First, require the module:
 const PIDController = require('simple-pid-controller');
 ```
 
-Then, create a new PIDController instance. You can optionally provide proportional, integral, and derivative gains and a time interval:
+Then, create a new PIDController instance. You can optionally provide proportional, integral, and derivative gains:
 
 ```javascript
-const controller = new PIDController(1.2, 1, 0.01, 1);
+const controller = new PIDController(1.2, 1, 0.01);
 ```
 
 You can set a new target for the controller:
@@ -40,7 +40,7 @@ let power = controller.update(currentValue);
 
 This module exports the `PIDController` class, which has the following methods:
 
-- `constructor(k_p = 1.0, k_i = 0.0, k_d = 0.0, dt = 1.0)`: Constructs a new PIDController.
+- `constructor(k_p = 1.0, k_i = 0.0, k_d = 0.0)`: Constructs a new PIDController.
 
 - `setTarget(target)`: Sets a new target for the controller.
 
