@@ -26,7 +26,7 @@ const k_d = 0.0; // Derivative gain
 const dt = 1.0;  // Time interval between updates (in seconds)
 
 // Create a PID controller instance
-const controller = new PIDController(k_p, k_i, k_d, dt);
+const controller = new PIDController(k_p, k_i, k_d);
 
 // Set the initial target value (Setpoint)
 controller.setTarget(100); // Example target value
