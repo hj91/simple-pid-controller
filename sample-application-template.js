@@ -1,6 +1,6 @@
 /***
 
-simple-pid-controller/sample-application-template.js Copyright 2023, Harshad Joshi and Bufferstack.IO Analytics Technology LLP. Pune
+simple-pid-controller/sample-application-template.js Copyright 2023-2026, Harshad Joshi and Bufferstack.IO Analytics Technology LLP. Pune
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ limitations under the License.
 
 "use strict";
 
-const PIDController = require('./index');
+const PIDController = require('simple-pid-controller');
 
 // ── PID Controller Configuration ───────────────────────────────────────────────
 // Tune k_p, k_i, k_d to suit your specific process.
